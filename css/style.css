@@ -466,9 +466,9 @@ body{
    
 }
 .image_plant_game img{
-     position:relative;
+    position:relative;
     top:0;
-     animation: imgAnim 4s ease-in infinite;
+    animation: imgAnim 2s linear infinite;
 }
 
 @keyframes imgAnim{
