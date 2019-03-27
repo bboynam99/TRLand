@@ -363,7 +363,7 @@ body{
 .text_table_stat{
     position: absolute;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 8px;
     border-top:1px solid rgba(255,235,184,0.5);
     background: rgba(252,223,175,0.5);
     padding:8px 0;
