@@ -51,15 +51,13 @@
 
         langDetector({
             languages: {
-                list: ['en', 'ru', 'zh'],
+                list: ['en', 'ru', 'zh', 'de',],
                 byDefault: 'en'
             },
             onDetect: function (lang) {
-
                 if (lang === 'zh') {
-                    lang = 'en';
+                    lang = 'cn';
                 }
-
                 window.location.href = './' + lang + '/';
             }
         });
